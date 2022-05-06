@@ -1,0 +1,54 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    test-sizing: border-test;
+    scroll-behavior: smooth;
+  }
+
+body{
+    height:400vh;
+}
+.test{
+height: 50vh;
+width: 50vw;
+background-color: aqua;
+animation: test 0.4s liner;
+animation: test 0.4s;
+  opacity: 1;
+
+}
+.test:hover {
+  transform: translateX(0px) translateY(85px);
+}
+.test {
+  transition: transform 500ms ease-in-out 25ms;
+}
+
+/* Just add .fade-in class to element */
+
+.fade-in {
+}
+
+.test1{
+  height: 50vh;
+  width: 50vw;
+  background-color: rgb(255, 0, 208);
+  
+}                        
+@keyframes test {
+  0% {
+    transform: translateZ(0px);
+  }
+  100% {
+    transform: translateZ(3px);
+  }
+}
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
+  100% {
+   opacity: 1;
+  }
+}
